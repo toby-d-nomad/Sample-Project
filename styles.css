@@ -1,0 +1,35 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(238, 231, 132);
+}
+
+.heading-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading>ul{
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.heading-items li{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.heading-items a{
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.heading-items li:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
