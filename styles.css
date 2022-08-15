@@ -40,7 +40,7 @@ body{
 }
 
 .heading-items li:hover{
-    font-weight: bolder;
+    /* font-weight: bolder; */
     border: 1px solid chocolate;
     border-radius: 4px;
 }
