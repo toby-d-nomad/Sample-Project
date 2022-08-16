@@ -1,4 +1,7 @@
 body{
+    background-image: url('images/wallpaperflare.com_wallpaper\ \(1\).jpg');
+    display: flex;
+    justify-content: space-evenly;
     padding: 0;
     margin: 0;
 }
@@ -34,4 +37,16 @@ body{
     font-weight: bolder;
     border: 1px solid chocolate;
     border-radius: 4px;
+}
+
+.description{
+    margin-top: 30px;
+    text-shadow: 1px 0 black;
+    width: 550px;
+    color: whitesmoke;
+    font-size: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
 }
