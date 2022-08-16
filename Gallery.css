@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(to right,grey,white,chocolate);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+}
+.heading-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heading{
+    width: 500px;
+}
+
+.heading>ul{
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.heading-items li{
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 5px;
+}
+.heading-items a{
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    color: chocolate;
+}
+
+.heading-items li:hover{
+    font-weight: bolder;
+    border: 1px solid chocolate;
+    border-radius: 4px;
+}
